@@ -27,4 +27,15 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Checkstyle fix.
+     * @param name the name to set
+     */
+    void setCurrentUser(String name);
+
+    /**
+     * Get the current User dummy method.
+     * @return String
+     */
+    String getCurrentUser();
 }
